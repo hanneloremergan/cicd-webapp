@@ -17,3 +17,9 @@ jobs:
         run: |
           yarn install
           yarn lint
+      - name: Build Docker image
+        uses: docker/build-push-action@v2
+        with:
+          context: .
+          push: "false"
+          tags: hannelorem/webapp:latest
