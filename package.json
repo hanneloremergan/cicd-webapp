@@ -26,5 +26,6 @@
     "eslint": "^8.47.0",
     "mocha": "^10.2.0",
     "node-fetch": "^2.6.11"
-  }
+  },
+  "test": "Testing GitHub Actions workflow."
 }
